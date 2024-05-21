@@ -15,7 +15,6 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/merch")
-@Component
 public class MerchController {
 
     @Autowired

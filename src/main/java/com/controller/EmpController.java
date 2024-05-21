@@ -10,6 +10,7 @@ import com.service.JobService;
 import com.service.PermissionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
@@ -27,7 +28,6 @@ import java.util.*;
 
 @Controller
 @RequestMapping("/emp")
-@ComponentScan
 public class EmpController {
 
     @Autowired
@@ -35,6 +35,7 @@ public class EmpController {
 
     @Autowired
     JobService jobService;
+
     @Autowired
     private PermissionService permissionService;
 

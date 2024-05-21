@@ -12,7 +12,6 @@ import java.util.Arrays;
 import java.util.Optional;
 
 
-@Component
 public class EmpFilter implements HandlerInterceptor {
     String[] ignoreUrls = {"/emp/toLogin","/emp/doLogin","/emp/resetPasswordLink","/error","/front_end/**",
             "/**/*.js", "/**/*.css", "/**/*.jpg", "/**/*.jpeg", "/**/*.png", "/**/*.gif", "/**/*.svg"};

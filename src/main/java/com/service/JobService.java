@@ -12,7 +12,6 @@ import java.util.Optional;
 import java.util.Set;
 
 @Service("jobsevice")
-@Component
 public class JobService {
     @Autowired
     JobRepository repository;
